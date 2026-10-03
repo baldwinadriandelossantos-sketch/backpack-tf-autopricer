@@ -1,0 +1,14 @@
+# Exclude build artifacts
+*.jpg binary
+*.ts linguist-detectable
+*.md linguist-documentation
+public/index.html linguist-vendored  
+dist/* linguist-vendored
+
+node_modules/* linguist-vendored
+src/*.ts linguist-detectable
+*.min.js linguist-generated
+
+*.html linguist-vendored
+*.yml linguist-detectable=false   
+# eof 7623fd5c
